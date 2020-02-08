@@ -1,0 +1,107 @@
+/*
+    This is the called stylesheet file in the head Section.
+*/
+
+/* Start Styling the Main Styles */
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+/* End Styling the Main Styles */
+
+/* Start Styling the Header Section */
+
+.header-bg {
+    margin-bottom: 30px;
+}
+
+.header-bg img {
+    width: 100%;
+}
+
+/* End Styling the Header Section */
+
+/* Start Styling the Carousel Section */
+
+.carousel .item {
+    height: 350px;
+    overflow: hidden;
+}
+
+.carousel .item img {
+    width: 100%;
+    height: auto;
+    margin-top: -35%;
+}
+
+.carousel-caption a {
+    color: #fff;
+}
+
+/* End Styling the Carousel Section */
+
+/* Start Styling the Blog Section */
+
+.blog-element {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-element a {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.first-row-padding, .second-row-padding:nth-child(2), .second-row-padding:nth-child(3) {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.third-row-padding {
+    padding: 0;
+}
+
+/* End Styling the Blog Section */
+
+/* Start Styling the Search Form Top Section */
+
+.search-form-container {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.35);
+    padding: 20px;
+    z-index: 2;
+}
+
+.open-search a {
+    font-size: 0;
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.open-search a:after {
+    display: block;
+    position: absolute;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content:"\e003";
+    font-size: 20px;
+    left: 0;
+    top: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+}
+
+/* End Styling the Search Form Top Section */
